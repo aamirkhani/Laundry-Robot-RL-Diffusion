@@ -1,0 +1,65 @@
+{
+ "policy": "random",
+ "mean_reward": 0.4642095549212748,
+ "mean_stacked": 0.0,
+ "total_burns": 0,
+ "sim_crashes": 2,
+ "raw": [
+  {
+   "ep": 0,
+   "reward": 2.526950221321355,
+   "steps": 24,
+   "stacked": 0,
+   "burns": 0,
+   "final_fold_q": {
+    "0": 0.22722335159778595,
+    "1": 0.2897312045097351,
+    "2": 0.7044916152954102,
+    "3": 0.7050389647483826
+   },
+   "final_ssim": {
+    "0": 0.07330835703760386,
+    "1": -0.02919997088611126,
+    "2": 0.003722339984960854,
+    "3": 0.0022005546488799155
+   }
+  },
+  {
+   "ep": 1,
+   "reward": -1.5985311114788052,
+   "steps": 16,
+   "stacked": 0,
+   "burns": 0,
+   "final_fold_q": {
+    "0": 0.2849005460739136,
+    "1": 0.13043344020843506,
+    "2": 0.12922580540180206
+   },
+   "final_ssim": {
+    "0": -0.008053902653045952,
+    "1": 0.032417094334959984,
+    "2": 9.007892731460743e-05
+   }
+  },
+  {
+   "ep": 2,
+   "sim_crashed": true,
+   "error": "Collision detection reported a contact whose position, normal or penetration is not finite. This is a solver-internal er",
+   "reward": null,
+   "stacked": 0,
+   "burns": 0,
+   "final_fold_q": {},
+   "final_ssim": {}
+  },
+  {
+   "ep": 3,
+   "sim_crashed": true,
+   "error": "Collision detection reported a contact whose position, normal or penetration is not finite. This is a solver-internal er",
+   "reward": null,
+   "stacked": 0,
+   "burns": 0,
+   "final_fold_q": {},
+   "final_ssim": {}
+  }
+ ]
+}
